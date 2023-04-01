@@ -1,0 +1,155 @@
+/* Reset des marges et des paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/fond-vert-simple-de-couleur-en-pastel-moderne-ligne-papier-peint-fonc%C3%A9-griffonnage-zigzag-forme-d-art-dentel%C3%A9-le-ray%C3%A9-cadre-145570031.jpg");
+}
+
+/* Styles pour l'en-tête */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+
+
+/* Styles pour la section des options */
+#options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(86, 173, 86);
+  height: 100px;
+
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Styles pour les éléments enfants de la section des options */
+#options > * {
+  margin-right: 1rem;
+}
+
+/* Styles pour les sélecteurs */
+select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les boutons */
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Styles pour les boutons au survol */
+button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+/* Styles pour la section des indicateurs */
+#indicators {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Styles pour les éléments enfants de la section des indicateurs */
+#indicators > div {
+  display: inline-block;
+  margin: 1rem;
+}
+
+/* Styles pour les éléments span de la section des indicateurs */
+#indicators span {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styles pour les éléments span de la section des indicateurs avec des valeurs numériques */
+#indicators span + span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Styles pour la section des produits */
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 10px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-img {
+  align-self: center;
+}
+
+.product-img img:hover {
+  transform: scale(2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-name a {
+  text-decoration: none;
+  color: #333;
+}
+
+.product-brand {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff5733;
+}
+
+
+
+  
